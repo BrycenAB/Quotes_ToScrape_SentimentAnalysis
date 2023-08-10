@@ -27,12 +27,12 @@ pip install pandas
 ```
 
 ## Output 
-The "main.py" script will create a CSV file named quotes.csv, which will contain the following information for each quote:
+The "main.py" script will create a CSV file named "quotes.csv", which will contain the following information for each quote:
 * Quote
 * Author
 * Tags
 
-The "SentimentAnalysis.py" script will analyze the quotes and give them a score based on the language used, based on the score it will either be classified as "Positive", "Neutral", or "Negative". Then a new CSV file will be added named "quotes_with_sentiment.csv" adding the "Sentiment" collumn.
+The "SentimentAnalysis.py" script will analyze the quotes and give them a score based on the language used, based on the score it will either be classified as "Positive", "Neutral", or "Negative". Then a new CSV file will be added named "quotes_with_sentiment.csv" adding the "Sentiment" column.
 
 ## Note
 This script is provided for educational purposes only and is meant to demonstrate basic web scraping techniques. Before scraping any website, please review the website's Terms of Service and Robots.txt file to ensure you are not violating any rules or policies.
